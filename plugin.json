@@ -1,0 +1,12 @@
+{
+	"name": "Google Authorship",
+	"version": "1.0",
+	"description": "Adds the rel=author parameter to your Google+ profile URL",
+	"demo": "http://diy.pulponair.de",
+	"author": {
+		"name": "Nikolas Hagelstein",
+		"link": "http://diy.pulponair.de"
+	},
+
+	"koken_version_required": "0.2.0"
+}
