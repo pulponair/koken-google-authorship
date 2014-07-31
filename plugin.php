@@ -16,15 +16,15 @@ class PulonairGoogleAuthorship extends KokenPlugin {
 	/**
 	 * Adds '?rel=author' to the google profile Url
 	 *
-	 * @param $content
-	 * @return mixed
+	 * @param string $content
+	 * @return string
 	 */
 	public function addRelParameterToGoogleProfileUrl($content) {
 		if ($googleProfileUrl = Koken::$profile['google_plus']) {
 			$content = str_replace(
 				'href="' . $googleProfileUrl . '"',
 				'href="' . $googleProfileUrl . '?rel=author"',
-			$content);
+				$content);
 		}
 
 		return $content;
